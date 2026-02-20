@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.c1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1-card {
+    width: 80%;
+    height: 70%;
+    border: 2px solid #ddd;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.c1-box {
+    flex: 1;
+    border: 2px solid #f0c14b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.c1-content {
+    flex: 1;
+    border: 2px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.highlights {
+    margin-left: 20px;
+}
+
+
+/* Buttons */
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.buy {
+    flex: 1;
+    padding: 12px;
+    background-color: #ffa41c;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cart {
+    flex: 1;
+    padding: 12px;
+    background-color: #ffd814;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.buy:hover {
+    background-color: #ff8f00;
+}
+
+.cart:hover {
+    background-color: #f7ca00;
+}
